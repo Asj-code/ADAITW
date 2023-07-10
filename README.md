@@ -1,7 +1,7 @@
 # ADAITW
+## This is the repo for projects created during the  Python Intensive course by ADAITW.
 
-## This is the first project of the Python Intensive course by ADAITW.
-The objective is to develop the interactive game "guess the word".
+### The first project is "Adivina la palabra" an interactive game "guess the word".
 The expected performance is as follows:
 When executing the program, a hidden word will be displayed on the screen using as many hyphens
 as letters contains the word to guess (the word to guess will be chosen by the
