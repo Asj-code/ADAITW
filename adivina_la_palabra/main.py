@@ -1,6 +1,6 @@
 import random
 
-word_list = ["pelota", "arco", "libro", "medicos"]
+word_list = ["arco","libro","pelota","medicos"]
 chosen_word = random.choice(word_list)
 
 display = []
@@ -8,7 +8,7 @@ for letter in chosen_word:
     display.append("_")
 
 lives = len(display)
-print(f'Tenes {lives} vidas')
+print(f'Tenes {lives} oportunidades para adivinar la palabra.')
 
 end_of_the_game = False
 
@@ -30,4 +30,4 @@ while not end_of_the_game:
 
 if "_" not in display:
     end_of_the_game = True
-    print(f"Ganaste! :) La palabra era {chosen_word}.")
+    print(f"Ganaste! :) La palabra es {chosen_word}.")
